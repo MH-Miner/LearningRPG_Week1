@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/sprites/grid.png" id="1"]
+[ext_resource type="Script" path="res://scripts/coordinate_helper.gd" id="2"]
+
+[node name="CoordinateDemo" type="Node2D"]
+script = ExtResource("2")
+
+[node name="Grid" type="Sprite2D" parent="."]
+texture = ExtResource("1")
+centered = false  # Important for understanding origin
+
+[node name="Origin" type="Sprite2D" parent="."]
+texture = ExtResource("res://assets/sprites/rectangle_red.png")
+scale = Vector2(0.5, 0.5)
+
+[node name="TestObject" type="Sprite2D" parent="."]
+texture = ExtResource("res://assets/sprites/rectangle_blue.png")
+position = Vector2(100, 100)
+
+[node name="CoordinateDisplay" type="Label" parent="."]
+offset_left = 10
+offset_top = 10
+offset_right = 200
+offset_bottom = 50
+text = "Position: (0, 0)"
