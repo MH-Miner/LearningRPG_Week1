@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkfqaq8djfaf7"
-path="res://.godot/imported/blue_rect.png-a31d162bd6b8b38f27d838ed3853eba8.ctex"
+uid="uid://pmf73qeb77om"
+path="res://.godot/imported/character_15.png-3637be37566f8381e09813f05fb9fb62.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/placeholders/blue_rect.png"
-dest_files=["res://.godot/imported/blue_rect.png-a31d162bd6b8b38f27d838ed3853eba8.ctex"]
+source_file="res://sprites/character_15.png"
+dest_files=["res://.godot/imported/character_15.png-3637be37566f8381e09813f05fb9fb62.ctex"]
 
 [params]
 
